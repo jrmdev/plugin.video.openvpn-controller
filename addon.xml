@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="plugin.video.openvpn-controller" name="OpenVPN Controller" provider-name="jrmdev" version="1.0.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>OpenVPN Controller</summary>
+    <description>OpenVPN Controller add-on</description>
+</extension>
+</addon>
